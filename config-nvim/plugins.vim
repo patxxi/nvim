@@ -8,6 +8,7 @@ Plug 'phanviet/vim-monokai-pro'
 "IDE
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
+"Plug 'neovim/nvim-lspconfig'
 
 " Icons
 Plug 'ryanoasis/vim-devicons'
