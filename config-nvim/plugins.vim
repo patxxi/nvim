@@ -48,7 +48,7 @@ Plug 'yggdroot/indentline'
 
 "Git
 Plug 'tpope/vim-fugitive'
-Plug 'APZelos/blamer.nvim'
+"Plug 'APZelos/blamer.nvim'
 
 "Linteo y modificar codigo
 "Plug 'dense-analysis/ale'
