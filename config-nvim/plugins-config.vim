@@ -38,7 +38,7 @@ if executable('pyls')
         \ })
 endif
 
-let g:lsp_settings_filetype_python=['pyls-all']
+let g:lsp_settings_filetype_python=['pyls-ms', 'pyls-all']
 let g:lsp_settings_filetype_javascript='eslint-language-server'
 
 
