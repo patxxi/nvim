@@ -12,3 +12,10 @@ nmap <Leader>k 20k<CR>
 nmap <Leader>j 20j<CR>
 
 tnoremap <Esc> <C-\><C-n>
+inoremap ( ()<Esc>i
+inoremap { {}<Esc>i
+inoremap {<CR> {<CR>}<Esc>O
+inoremap [ []<Esc>i
+inoremap < <><Esc>i
+inoremap ' ''<Esc>i
+inoremap " ""<Esc>i
