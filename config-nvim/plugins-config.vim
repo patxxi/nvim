@@ -28,7 +28,6 @@ let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 " LSP CONFIGURATION
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
-
 if executable('pyls')
     " pip install python-language-server
     au User lsp_setup call lsp#register_server({
@@ -70,6 +69,9 @@ augroup lsp_install
     " call s:on_lsp_buffer_enabled only for languages that has the server registered.
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
+
+inoremap <expr> <cr> pumvisible() ? asyncomplete#close_popup() . "\<cr>" : "\<cr>"
+imap <c-space> <Plug>(asyncomplete_force_refresh)
 
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 "TREE SITTER CONFIGURATION SET UP
