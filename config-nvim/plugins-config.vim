@@ -38,8 +38,7 @@ if executable('pyls')
 endif
 
 let g:lsp_settings_filetype_python=['pyls-ms', 'pyls-all']
-let g:lsp_settings_filetype_javascript='eslint-language-server'
-
+let g:lsp_settings_filetype_javascript=['eslint-language-server', 'typescript-language-server']
 
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
@@ -113,13 +112,7 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-lua <<EOF
-require'nvim-treesitter.configs'.setup {
-  indent = {
-    enable = true
-  }
-}
-EOF
+
 
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 "navigator
@@ -134,8 +127,5 @@ let g:formatters_python = ['autopep8']
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 "Prettier
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
-let g:prettier#autoformat_require_pragma = 0
-let g:prettier#autoformat = 1
-let g:prettier#exec_cmd_async = 1
 
 

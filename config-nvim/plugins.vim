@@ -10,6 +10,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'neovim/nvim-lspconfig'
 
 " Icons
@@ -41,6 +42,7 @@ Plug 'junegunn/fzf.vim'
 "Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'yuezk/vim-js'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/completion-treesitter'
 
 "Sirve para trabaar cn git, indica que cambios se han hecho en el archivo
 Plug 'mhinz/vim-signify'
