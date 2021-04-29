@@ -13,12 +13,12 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'neovim/nvim-lspconfig'
 
-" Icons
-Plug 'ryanoasis/vim-devicons'
 
 "Easy motion para moverse facil etre archivos del arbol
 Plug 'easymotion/vim-easymotion'
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree' |
+            \ Plug 'Xuyuanp/nerdtree-git-plugin' |
+            \ Plug 'ryanoasis/vim-devicons'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
