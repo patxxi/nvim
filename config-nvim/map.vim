@@ -11,6 +11,10 @@ nmap <Leader>gs :G<CR>
 nmap <Leader>k 20k<CR>
 nmap <Leader>j 20j<CR>
 
+"Fuzzy finder
+nmap <Leader>f :FZF<CR>
+
+
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
