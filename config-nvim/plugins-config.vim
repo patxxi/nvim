@@ -39,7 +39,8 @@ endif
 
 let g:lsp_settings_filetype_python=['pyls-ms', 'pyls-all']
 let g:lsp_settings_filetype_javascript=['eslint-language-server', 'typescript-language-server']
-
+let g:lsp_diagnostic_echo_delay = 1000
+let g:lsp_diagnostics_highlights_enabled = 0
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
     setlocal signcolumn=yes
