@@ -38,3 +38,4 @@ nmap <Leader>do <Plug>VimspectorStepOut
 nmap <Leader>du <Plug>VimspectorStepOver
 nmap <Leader>dev <Plug>VimspectorBallonEval
 nmap <Leader>ddf :VimspectorReset<CR>
+nmap <Leader>dl <Plug>VimspectorRunToCursor
