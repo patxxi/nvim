@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #Alias personalizado
-alias v="~/nvim-executer/squashfs-root/usr/bin/nvim"
+alias v="~/nvim-executer/nvim-linux64/bin/nvim"
 alias vrc="cd ~/.config/nvim/"
 alias pysource="source env/bin/activate"
 alias l="ls -l"

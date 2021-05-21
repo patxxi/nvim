@@ -32,6 +32,8 @@ Plug 'itchyny/lightline.vim'
 "Close tag para html
 Plug 'alvan/vim-closetag'
 
+""terminal
+Plug 'vimlab/split-term.vim'
 
 "Buscador de archivos fzf
 Plug 'junegunn/fzf', {'do' : {-> fzf#install()}}

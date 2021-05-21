@@ -23,4 +23,4 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 tnoremap <Esc> <C-\><C-n>
-
+nmap <Leader>t :20Term<CR>
