@@ -33,7 +33,7 @@ nmap <Leader>dp <Plug>VimspectorPause
 nmap <Leader>dp <Plug>VimspectorPause
 nmap <Leader>db <Plug>VimspectorToggleBreakpoint
 nmap <Leader>dcb <Plug>VimspectorToggleConditionalBreakpoint
-nmap <Leader>di <Plug>VimspectorSetpInto
+nmap <Leader>di <Plug>VimspectorStepInto
 nmap <Leader>do <Plug>VimspectorStepOut
 nmap <Leader>du <Plug>VimspectorStepOver
 nmap <Leader>dev <Plug>VimspectorBallonEval

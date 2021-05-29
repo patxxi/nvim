@@ -37,6 +37,16 @@ if executable('pyls')
         \ })
 endif
 
+if executable('css-languageserver')
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'css-languageserver',
+        \ 'cmd': {server_info->[&shell, &shellcmdflag, 'css-languageserver --stdio']},
+        \ 'whitelist': ['css', 'less', 'sass'],
+        \ })
+endif
+
+
+
 let g:lsp_settings_filetype_python=['pyls-ms', 'pyls-all']
 let g:lsp_settings_filetype_javascript=['eslint-language-server', 'typescript-language-server']
 let g:lsp_diagnostic_echo_delay = 1000
@@ -124,11 +134,11 @@ let g:tmux_navigator_save_on_switch = 1
 "Formater
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 let g:formatters_python = ['autopep8']
+let g:formatters_javascript = ['eslint_local']
 
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 "terminal
 set splitbelow
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
-let g:vimspector_enable_mappings = 'HUMAN'
-
+let g:vimspector_install_gadgets = [ 'debugpy', 'vscode-cpptools', 'vscode-node-debug2', 'debugger-for-chrome' ]
