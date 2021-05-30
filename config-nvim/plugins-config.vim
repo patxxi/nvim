@@ -142,3 +142,7 @@ set splitbelow
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
 let g:vimspector_install_gadgets = [ 'debugpy', 'vscode-cpptools', 'vscode-node-debug2', 'debugger-for-chrome' ]
+
+autocmd FileType python let b:coc_suggest_disable = 1
+autocmd FileType javascript let b:coc_suggest_disable = 1
+autocmd FileType scss setl iskeyword+=@-@
