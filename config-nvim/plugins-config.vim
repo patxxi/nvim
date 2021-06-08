@@ -146,3 +146,7 @@ let g:vimspector_install_gadgets = [ 'debugpy', 'vscode-cpptools', 'vscode-node-
 autocmd FileType python let b:coc_suggest_disable = 1
 autocmd FileType javascript let b:coc_suggest_disable = 1
 autocmd FileType scss setl iskeyword+=@-@
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
