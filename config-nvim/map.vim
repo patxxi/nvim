@@ -23,7 +23,7 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 tnoremap <Esc> <C-\><C-n>
-nmap <Leader>t :20Term<CR>
+nmap <Leader>t :10Term<CR>
 
 "Debugger Vimspector"
 nmap <Leader>dd <Plug>VimspectorContinue
