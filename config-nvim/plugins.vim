@@ -21,8 +21,7 @@ Plug 'thomasfaingnaert/vim-lsp-ultisnips'
 "Easy motion para moverse facil etre archivos del arbol
 Plug 'easymotion/vim-easymotion'
 Plug 'preservim/nerdtree' |
-            \ Plug 'Xuyuanp/nerdtree-git-plugin' |
-            \ Plug 'ryanoasis/vim-devicons'
+Plug 'Xuyuanp/nerdtree-git-plugin' |
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
@@ -70,6 +69,8 @@ Plug 'ap/vim-css-color'
 
 " Code format
 Plug 'Chiel92/vim-autoformat'
+
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
