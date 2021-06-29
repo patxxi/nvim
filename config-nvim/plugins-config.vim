@@ -12,6 +12,15 @@ let g:kite_supported_languages = []
 let g:coc_start_at_startup = 0
 autocmd FileType python let b:coc_suggest_disable = 1
 autocmd FileType javascript let b:coc_suggest_disable = 1
+let g:htl_css_templates = 1
+let g:htl_all_templates = 1
+let g:closetag_filetypes = 'html,xhtml,phtml,javascript,typescript'
+let g:closetag_regions = {
+      \ 'typescript.tsx': 'jsxRegion,tsxRegion,litHtmlRegion',
+      \ 'javascript.jsx': 'jsxRegion,litHtmlRegion',
+      \ 'javascript':     'litHtmlRegion',
+      \ 'typescript':     'litHtmlRegion',
+      \ }
 "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 "Bracket solarizer 
 "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------"

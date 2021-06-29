@@ -6,6 +6,8 @@ Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
 
 "IDE
+Plug 'jonsmithers/vim-html-template-literals'
+Plug 'pangloss/vim-javascript'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
@@ -15,6 +17,7 @@ Plug 'puremourning/vimspector'
 Plug 'SirVer/ultisnips'
 Plug 'thomasfaingnaert/vim-lsp-snippets'
 Plug 'thomasfaingnaert/vim-lsp-ultisnips'
+Plug 'codota/tabnine-vim'
 "Plug 'neovim/nvim-lspconfig'
 
 
