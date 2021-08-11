@@ -105,6 +105,7 @@ alias pysource="source env/bin/activate"
 alias l="ls -l"
 alias gtree="git log --all --graph --decorate --oneline"
 alias convert-pdf="lowriter --convert-to pdf"
+alias update-apt="sudo apt update && sudo apt -y upgrade && sudo apt-get update && sudo apt-get -y upgrade"
 
 
 
