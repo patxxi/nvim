@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-" Themes 
+" Themes
 
 Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
@@ -28,7 +28,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin' |
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-"Emmet de vim para html 
+"Emmet de vim para html
 Plug 'mattn/emmet-vim'
 
 "Rainbow brackets y mejoras de colores en la interfaz
@@ -60,6 +60,7 @@ Plug 'yggdroot/indentline'
 
 "Git
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 "Plug 'APZelos/blamer.nvim'
 
 "Linteo y modificar codigo
@@ -80,7 +81,7 @@ call plug#end()
 
 "Themes config
 set termguicolors
-colorscheme gruvbox 
+colorscheme gruvbox
 set bg=dark
 let g:gruvbox_contrast_dark = "hard"
 
