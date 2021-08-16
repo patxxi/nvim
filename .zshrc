@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias v="~/nvim-executer/nvim-linux64/bin/nvim"
 alias vrc="cd ~/.config/nvim/"
 alias pysource="source env/bin/activate"
+alias python-check-type="mypy --check-untyped-defs"
 alias l="ls -l"
 alias gtree="git log --all --graph --decorate --oneline"
 alias convert-pdf="lowriter --convert-to pdf"
