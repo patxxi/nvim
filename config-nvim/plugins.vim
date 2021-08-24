@@ -45,10 +45,10 @@ Plug 'vimlab/split-term.vim'
 Plug 'junegunn/fzf', {'do' : {-> fzf#install()}}
 Plug 'junegunn/fzf.vim'
 
-"Polyglot para tener resaltado en multiples lenguajes
-"Plug 'sheerun/vim-polyglot'
-"Plug 'maxmellon/vim-jsx-pretty'
-"Plug 'yuezk/vim-js'
+"Highligth for vim with in multiple language
+"
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'yuezk/vim-js'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-treesitter/completion-treesitter'
 
