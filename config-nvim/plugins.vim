@@ -20,6 +20,9 @@ Plug 'thomasfaingnaert/vim-lsp-ultisnips'
 Plug 'codota/tabnine-vim'
 "Plug 'neovim/nvim-lspconfig'
 
+" Code screenshot
+Plug 'segeljakt/vim-silicon'
+
 
 "Easy motion para moverse facil etre archivos del arbol
 Plug 'easymotion/vim-easymotion'
