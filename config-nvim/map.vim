@@ -39,3 +39,6 @@ nmap <Leader>du <Plug>VimspectorStepOver
 nmap <Leader>dev <Plug>VimspectorBallonEval
 nmap <Leader>ddf :VimspectorReset<CR>
 nmap <Leader>dl <Plug>VimspectorRunToCursor
+
+" UnDoo toggle tree for multiple changes
+nnoremap <F5> :UndotreeToggle<CR>
