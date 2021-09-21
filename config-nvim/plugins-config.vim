@@ -164,7 +164,7 @@ autocmd FileType scss setl iskeyword+=@-@
 let g:silicon = {
       \   'theme':              'gruvbox',
       \   'font':                  'Hack',
-      \   'background':         '#0e0ea1',
+      \   'background':         '#3f3f54',
       \   'shadow-color':       '#555555',
       \   'line-pad':                   2,
       \   'pad-horiz':                 80,
