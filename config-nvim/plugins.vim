@@ -17,7 +17,7 @@ Plug 'puremourning/vimspector'
 Plug 'SirVer/ultisnips'
 Plug 'thomasfaingnaert/vim-lsp-snippets'
 Plug 'thomasfaingnaert/vim-lsp-ultisnips'
-Plug 'codota/tabnine-vim'
+" Plug 'codota/tabnine-vim'
 Plug 'mbbill/undotree'
 "Plug 'neovim/nvim-lspconfig'
 
