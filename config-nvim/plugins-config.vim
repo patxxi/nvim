@@ -63,6 +63,8 @@ endif
 let g:lsp_settings_filetype_python=['pyls-ms', 'pyls-all']
 let g:lsp_settings_filetype_javascript=['eslint-language-server', 'typescript-language-server']
 let g:lsp_settings_filetype_javascriptreact=['eslint-language-server', 'typescript-language-server']
+let g:lsp_settings_filetype_vue=['vue-language-server']
+let g:lsp_settings_filetype_html=['html_languageserver', 'eslint-language-server']
 let g:lsp_diagnostic_echo_delay = 1000
 let g:lsp_diagnostics_highlights_enabled = 0
 function! s:on_lsp_buffer_enabled() abort
@@ -148,8 +150,9 @@ let g:tmux_navigator_save_on_switch = 1
 "Formater
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 let g:formatters_python = ['autopep8']
-let g:formatters_javascript = ['eslint_local']
+let g:formatters_javascript = ["eslint_local"]
 let g:formatters_javascriptreact = ["eslint_local"]
+let g:formatters_vue = ['eslint_local']
 
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 "terminal
