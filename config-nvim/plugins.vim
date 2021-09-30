@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
+Plug 'xiyaowong/nvim-transparent'
 
 "IDE
 Plug 'jonsmithers/vim-html-template-literals'
@@ -87,6 +88,6 @@ call plug#end()
 set termguicolors
 colorscheme gruvbox
 set bg=dark
-let g:gruvbox_contrast_dark = "hard"
+let g:gruvbox_contrast_dark="hard"
 
 
