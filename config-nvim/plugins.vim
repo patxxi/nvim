@@ -5,6 +5,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'xiyaowong/nvim-transparent'
+Plug 'luochen1990/rainbow'
+
 
 "IDE
 Plug 'jonsmithers/vim-html-template-literals'
