@@ -60,7 +60,7 @@ endif
 
 
 
-let g:lsp_settings_filetype_python=['pyls-ms', 'pyls-all']
+let g:lsp_settings_filetype_python=['pyls-ms', 'pyls-all', 'jedi-language-server']
 let g:lsp_settings_filetype_javascript=['eslint-language-server', 'typescript-language-server']
 let g:lsp_settings_filetype_javascriptreact=['eslint-language-server', 'typescript-language-server']
 let g:lsp_settings_filetype_vue=['vue-language-server']
