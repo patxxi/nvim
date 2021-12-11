@@ -108,6 +108,7 @@ alias gtree="git log --all --graph --decorate --oneline"
 alias convert-pdf="lowriter --convert-to pdf"
 alias update-apt="sudo apt update && sudo apt -y upgrade && sudo apt-get update && sudo apt-get -y upgrade"
 alias empty-trash="rm -Rf ~/.local/share/Trash/*"
+alias start-react-project="npm install react react-dom react-router-dom styled-components @babel/eslint-parser && npm install @babel/core @babel/plugin-proposal-export-default-from @babel/plugin-syntax-jsx @babel/plugin-transform-runtime @babel/preset-env @babel/preset-react babel-eslint babel-loader babel-plugin-styled-components copy-webpack-plugin css-loader css-minimizer-webpack-plugin dotenv-webpack eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react html-loader html-webpack-plugin mini-css-extract-plugin prettier terser-webpack-plugin webpack webpack-cli webpack-dev-server -D"
 
 
 
