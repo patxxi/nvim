@@ -15,3 +15,4 @@ set sw=2
 set laststatus=2
 set cursorline
 set nocompatible
+set guifont=JetBrains\ Mono

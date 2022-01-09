@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #Alias personalizado
-alias v="~/nvim-executer/nvim-linux64/bin/nvim"
+alias v="nvim"
 alias vrc="cd ~/.config/nvim/"
 alias pysource="source env/bin/activate || source venv/bin/activate"
 alias python-check-type="mypy --check-untyped-defs"
@@ -118,5 +118,3 @@ export DEFAULT_USER="$(whoami)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
