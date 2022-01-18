@@ -190,7 +190,7 @@ let g:silicon = {
       \   'round-corner':          v:true,
       \   'window-controls':       v:true,
       \ }
-let g:silicon['output'] = '~/Pictures/silicon/silicon-{time:%Y-%m-%d-%H%M%S}.png'
+let g:silicon['output'] = '~/../../mnt/c/Users/franc/Desktop/images/silicon/silicon-{time:%Y-%m-%d-%H%M%S}.png'
 
 
 "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
