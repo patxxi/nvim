@@ -20,6 +20,7 @@ Plug 'puremourning/vimspector'
 Plug 'SirVer/ultisnips'
 Plug 'thomasfaingnaert/vim-lsp-snippets'
 Plug 'thomasfaingnaert/vim-lsp-ultisnips'
+Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main' }
 " Plug 'codota/tabnine-vim'
 Plug 'mbbill/undotree'
 "Plug 'neovim/nvim-lspconfig'
